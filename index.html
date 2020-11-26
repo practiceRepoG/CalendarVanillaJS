@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div style="border: 2px solid black;text-align:center;width:469px;height: 35px;padding: 15px;
+                background-color:gold">
+        <div class="month" onclick="prev()" style="float: left;"> &#10094; </div>
+        <div id="monthName" class="month"></div>
+        <div class="month" onclick="next()" style="float: right;"> &#10095; </div>
+    </div>
+    <table border="2px" style="border-color: black;width: 504px;">
+        <thead style="background-color:lightsteelblue">
+            <tr>
+                <th>Sunday</th>
+                <th>Monday</th>
+                <th>Tuesday</th>
+                <th>Wednesday</th>
+                <th>Thuresday</th>
+                <th>Friday</th>
+                <th>Saturday</th>
+            </tr>
+        </thead>
+        <tbody id="tbody">
+        </tbody>
+    </table>
+    <script src="index.js"></script>
+</body>
+</html>
